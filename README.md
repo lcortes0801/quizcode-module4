@@ -1,5 +1,5 @@
 # Code Quiz
-A [quiz game](https://jsardinas.github.io/code-quiz/) to practice your coding knolwedge.
+A [quiz game](https://lcortes0801.github.io/code-quiz/) to practice your coding knolwedge.
 ![](./readme/main.png)
 
 ##Getting Started
