@@ -1,0 +1,147 @@
+/* *{
+    border: 1px solid black;
+} */
+
+body{
+    --main-color: #FFD4B7;
+    --accent: darkorange;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    background-color: var(--main-color);
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 500px;
+    border: 1px solid var(--accent);
+    border-radius: 5%;
+    padding: 10px;
+    margin: 40px;
+}
+
+.main-menu{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.start-btn{
+    background-color: var(--accent);
+    color: white;
+    border-radius: 20px;
+    font-size: 28px;
+    padding: 20px;
+    margin: 20px;
+    font-weight: 800;
+}
+
+.highscore-btn{
+    background-color: var(--accent);
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 10px;
+    margin: 40px;
+}
+
+.trivia-header{
+    text-align: center;
+}
+
+.question{
+    margin: 40px;
+    font-size: 24px;
+}
+
+.timer{
+    background-color: var(--accent);
+    color: white;
+}
+
+.answers ol{
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.answers ol li{
+    color: beige;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    width: fit-content;
+    min-width: 80px;
+}
+
+.unanswered:hover{
+    color: white;
+    background-color: #fba020;
+    font-weight: 800;
+}
+
+.unanswered{
+    background-color: var(--accent);
+}
+
+.right-answer{
+    background-color: #1bae39;
+    font-weight: 800;
+}
+
+.wrong-answer{
+    background-color: #f28693;
+    font-weight: 800;
+}
+
+.game-over{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+form *{
+    margin: 10px;
+}
+
+.high-scores{
+    text-align: left;
+}
+
+.scores-div{
+    display: flex;
+}
+#hstable{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#hstable td, #hstable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#hstable tr:nth-child(even){background-color: #f2f2f2;}
+
+#hstable tr:hover {background-color: #ddd;}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--accent);
+    color: white;
+  }
